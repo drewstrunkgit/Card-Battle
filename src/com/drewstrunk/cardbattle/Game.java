@@ -102,7 +102,7 @@ public class Game {
 
         for (int n = 0; n < dealtCards.length; n++) {
             if (winningCard == staticDealtCards[n]) {
-                System.out.println("The winner is " + playerPositions.get(n) + " with the " + unchangedDeck.get(winningCard));
+                System.out.println("The winner is " + playerPositions.get(n) + " with the " + unchangedDeck.get(winningCard) + ".");
             }
         }
 
