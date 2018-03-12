@@ -53,14 +53,16 @@ public class Game {
         ArrayList<String> unchangedDeck = Deck.createDeck();
 
         int numberOfPlayers = getNumberOfPlayers();
-        int dealtCards[] = {0, 0, 0, 0, 0, 0};
+        ArrayList<String> playerPositions = new ArrayList<>();
+        playerPositions.add("Player One");
+        playerPositions.add("Player Two");
+        playerPositions.add("Player Three");
+        playerPositions.add("Player Four");
+        playerPositions.add("Player Five");
+        playerPositions.add("Player Six");
 
-        String playerOne = "Player One";
-        String playerTwo = "Player Two";
-        String playerThree = "Player Three";
-        String playerFour = "Player Four";
-        String playerFive = "Player Five";
-        String playerSix = "Player Six";
+
+        int dealtCards[] = {0, 0, 0, 0, 0, 0};
 
         for (int i = 0; i < numberOfPlayers; i++) {
 
@@ -70,13 +72,18 @@ public class Game {
             int index = randomCard.nextInt(thisDeck.size());
 
             String card = thisDeck.get(index);
-            int cardPosition = thisDeck.indexOf(card);
+            int cardPosition = unchangedDeck.indexOf(card);
 
             System.out.println("Player " + (i + 1) + "'s card is: " + card);
 
-            dealtCards[i] = cardPosition + i;
+            dealtCards[i] = cardPosition;
 
             thisDeck.remove(card);
+        }
+
+        int[] staticDealtCards = {0, 0, 0, 0, 0, 0};
+        for (int m = 0; m < staticDealtCards.length; m++) {
+            staticDealtCards[m] = dealtCards[m];
         }
 
         int length = dealtCards.length;
@@ -93,8 +100,11 @@ public class Game {
 
         int winningCard = dealtCards[5];
 
-        System.out.println("The winner is: " + unchangedDeck.get(winningCard));
+        for (int n = 0; n < dealtCards.length; n++) {
+            if (winningCard == staticDealtCards[n]) {
+                System.out.println("The winner is " + playerPositions.get(n) + " with the " + unchangedDeck.get(winningCard));
+            }
+        }
 
-        System.out.println(Arrays.toString(dealtCards));
     }
 }
