@@ -30,16 +30,15 @@ public class Game {
 
     public static int getNumberOfPlayers() {
         Scanner reader = new Scanner(System.in);
-
         int numberOfPlayers = reader.nextInt();
 
         if (numberOfPlayers < 2) {
-            System.out.println("You can not have less than two players.  Please enter the number of players.");
+            System.out.println("You can not have less than two players.  Please enter the number of players. (2-6)");
             numberOfPlayers = reader.nextInt();
         }
 
         else if (numberOfPlayers > 6) {
-            System.out.println("You can not have more than 6 players.  Please enter the number of players.");
+            System.out.println("You can not have more than 6 players.  Please enter the number of players.  (2-6)");
             numberOfPlayers = reader.nextInt();
         }
 
