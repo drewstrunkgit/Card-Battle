@@ -2,6 +2,8 @@ package com.drewstrunk.cardbattle;
 
 public class Card {
 
+    //Create strings that will represent each card.
+
     String aceOfHearts = "Ace of Hearts";
     String twoOfHearts = "Two of Hearts";
     String threeOfHearts = "Three of Hearts";

@@ -6,12 +6,18 @@ public class Deck {
 
     public static ArrayList<String> createDeck() {
 
+        //Create a new instance of the card class to use in our deck.
         Card card = new Card();
 
+        //Set our deck size to 52.  We can change the deck size by changing this number.
         int deckSize = 52;
 
+        //Create a new array list called deckList where we'll build our deck of cards.
+        //The array list has a size of deckSize.
         ArrayList<String> deckList = new ArrayList<>(deckSize);
 
+        //Add cards to the deck in the order of value.  Two is the lowest card, Ace is the highest.  Spades, Clubs, Diamonds, then Hearts.
+        //We will determine a card's value based on its position in the array list.
         deckList.add(card.twoOfSpades);
         deckList.add(card.threeOfSpades);
         deckList.add(card.fourOfSpades);
@@ -68,6 +74,7 @@ public class Deck {
         deckList.add(card.kingOfHearts);
         deckList.add(card.aceOfHearts);
 
+        //The createDeck method will return the array list.
         return deckList;
 
     }
