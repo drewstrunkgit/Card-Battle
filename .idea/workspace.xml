@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="506f9c66-9784-4834-b680-3878440364f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Card.java" afterPath="$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Card.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Deck.java" afterPath="$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Deck.java" />
       <change beforePath="$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Game.java" afterPath="$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Game.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +18,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="141" column="134" lean-forward="true" selection-start-line="141" selection-start-column="134" selection-end-line="141" selection-end-column="134" />
+            <state relative-caret-position="51">
+              <caret line="66" column="68" lean-forward="false" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520896729026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Card Battle - Final">
+      <created>1521056955471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521056955472</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -246,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Card Battle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card Battle" />
+    <MESSAGE value="Card Battle - Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card Battle - Final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -319,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/drewstrunk/cardbattle/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="134" lean-forward="true" selection-start-line="141" selection-start-column="134" selection-end-line="141" selection-end-column="134" />
+        <state relative-caret-position="51">
+          <caret line="66" column="68" lean-forward="false" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
           <folding />
         </state>
       </provider>

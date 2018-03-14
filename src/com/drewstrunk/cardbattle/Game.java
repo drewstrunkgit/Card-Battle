@@ -64,7 +64,7 @@ public class Game {
             //This is the deck we will use to check card values.  It will remain unchanged.
             ArrayList<String> unchangedDeck = Deck.createDeck();
 
-            //Create a variable called numberOfPlayers that we set to the number entered by the user in the
+            //Create a variable called numberOfPlayers that we will set to the number entered by the user in the
             //getNumberOfPlayers method.
             int numberOfPlayers = getNumberOfPlayers();
             //Create a new array list where we will store our list of players.
@@ -89,7 +89,7 @@ public class Game {
                 //Create a variable called index that will select a random index from our deck array list.
                 int index = random.nextInt(thisDeck.size());
 
-                //Create a String variable that will represent a random card.  Set it to whichever card is the the position
+                //Create a String variable that will represent a random card.  Set it to whichever card is in the position
                 //that we just randomly chose in the deck array list.
                 String randomCard = thisDeck.get(index);
 
