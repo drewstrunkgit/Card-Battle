@@ -94,7 +94,7 @@ public class Game {
                 String randomCard = thisDeck.get(index);
 
                 //Create an int variable that will represent the absolute position of the card in a complete deck.
-                //We need to know it's original position to calculate its value because we are going to be removing cards
+                //We need to know its original position to calculate its value because we are going to be removing cards
                 //from thisDeck.  Therefore we set it to its original index in the unchangedDeck array list - its index
                 //will represent its score.  twoOfSpades = 0, threeOfSpades = 1, aceOfHearts = 52, etc.
                 int randomCardPosition = unchangedDeck.indexOf(randomCard);
