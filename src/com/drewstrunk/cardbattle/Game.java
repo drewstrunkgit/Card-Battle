@@ -100,7 +100,7 @@ public class Game {
                 int randomCardPosition = unchangedDeck.indexOf(randomCard);
 
                 //Print each players card.  Since we started our loop at 0, the player number will end up being i+1.
-                System.out.println("Player " + (i + 1) + "'s randomCard is: " + randomCard);
+                System.out.println("Player " + (i + 1) + "'s card is: " + randomCard);
 
                 //Set the value of dealtCards in the current position to the score of our random card.
                 dealtCards[i] = randomCardPosition;
